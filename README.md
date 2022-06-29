@@ -2,7 +2,7 @@
 
 This project is a weather forecast that show weather info about a specific address.
 
-![Weather Forecast Video](https://user-images.githubusercontent.com/19713358/176558532-1bc4f38b-b0ee-40b8-b27b-ef9ff6e8192a.mov)
+https://user-images.githubusercontent.com/19713358/176558532-1bc4f38b-b0ee-40b8-b27b-ef9ff6e8192a.mov
 
 ## Available Scripts
 
