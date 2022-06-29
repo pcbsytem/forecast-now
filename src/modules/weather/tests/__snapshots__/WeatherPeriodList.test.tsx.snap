@@ -91,61 +91,64 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
+              screenwidth="0"
             >
               <div
-                class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+                class="sc-gsnTZi iiSpRq"
               >
-                <div
-                  class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                <b
+                  class="sc-dkzDqf cybjuV"
                 >
-                  <b
-                    class="sc-dkzDqf cybjuV"
-                  >
-                    71
-                  </b>
-                  <b>
-                    °F
-                  </b>
-                </div>
-                <div
-                  class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                  71
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+              <div
+                class="sc-gsnTZi iiSpRq"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
                 >
-                  <b
-                    class="sc-dkzDqf cybjuV"
-                  >
-                    88
-                  </b>
-                  <b>
-                    °F
-                  </b>
-                </div>
+                  88
+                </b>
+                <b>
+                  °F
+                </b>
               </div>
             </div>
             <div
-              class="sc-iBkjds hZwjHB rs-col rs-col-md-20"
+              class="sc-iBkjds gFLrEu rs-col rs-col-md-20"
               colspan="24"
               role="gridcell"
+              screenwidth="0"
             >
-              <b>
-                Independence Day
-              </b>
-              <div
-                class="sc-papXJ iGjbPw"
-              >
-                A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. Chance of precipitation is 30%.
+              <div>
+                <b>
+                  Independence Day
+                </b>
+                <div
+                  class="sc-papXJ iGjbPw"
+                >
+                  A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. Chance of precipitation is 30%.
+                </div>
               </div>
-              <b>
-                Monday Night
-              </b>
-              <div
-                class="sc-papXJ iGjbPw"
-              >
-                A chance of showers and thunderstorms. Partly cloudy, with a low around 71. Chance of precipitation is 30%.
+              <div>
+                <b>
+                  Monday Night
+                </b>
+                <div
+                  class="sc-papXJ iGjbPw"
+                >
+                  A chance of showers and thunderstorms. Partly cloudy, with a low around 71. Chance of precipitation is 30%.
+                </div>
               </div>
               <div
-                class="sc-ftvSup eYnUzf"
+                class="sc-ftvSup vRCYJ"
               >
                 7/4/2022
               </div>
@@ -172,61 +175,64 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
+              screenwidth="0"
             >
               <div
-                class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+                class="sc-gsnTZi iiSpRq"
               >
-                <div
-                  class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                <b
+                  class="sc-dkzDqf cybjuV"
                 >
-                  <b
-                    class="sc-dkzDqf cybjuV"
-                  >
-                    70
-                  </b>
-                  <b>
-                    °F
-                  </b>
-                </div>
-                <div
-                  class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                  70
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+              <div
+                class="sc-gsnTZi iiSpRq"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
                 >
-                  <b
-                    class="sc-dkzDqf cybjuV"
-                  >
-                    88
-                  </b>
-                  <b>
-                    °F
-                  </b>
-                </div>
+                  88
+                </b>
+                <b>
+                  °F
+                </b>
               </div>
             </div>
             <div
-              class="sc-iBkjds hZwjHB rs-col rs-col-md-20"
+              class="sc-iBkjds gFLrEu rs-col rs-col-md-20"
               colspan="24"
               role="gridcell"
+              screenwidth="0"
             >
-              <b>
-                Tuesday
-              </b>
-              <div
-                class="sc-papXJ iGjbPw"
-              >
-                A chance of rain showers before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.
+              <div>
+                <b>
+                  Tuesday
+                </b>
+                <div
+                  class="sc-papXJ iGjbPw"
+                >
+                  A chance of rain showers before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.
+                </div>
               </div>
-              <b>
-                Tuesday Night
-              </b>
-              <div
-                class="sc-papXJ iGjbPw"
-              >
-                A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Chance of precipitation is 40%.
+              <div>
+                <b>
+                  Tuesday Night
+                </b>
+                <div
+                  class="sc-papXJ iGjbPw"
+                >
+                  A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Chance of precipitation is 40%.
+                </div>
               </div>
               <div
-                class="sc-ftvSup eYnUzf"
+                class="sc-ftvSup vRCYJ"
               >
                 7/5/2022
               </div>
@@ -262,61 +268,64 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
+            screenwidth="0"
           >
             <div
-              class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+              class="sc-gsnTZi iiSpRq"
             >
-              <div
-                class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+              <b
+                class="sc-dkzDqf cybjuV"
               >
-                <b
-                  class="sc-dkzDqf cybjuV"
-                >
-                  71
-                </b>
-                <b>
-                  °F
-                </b>
-              </div>
-              <div
-                class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                71
+              </b>
+              <b>
+                °F
+              </b>
+            </div>
+            <div
+              class="sc-gsnTZi iiSpRq"
+            >
+              <b
+                class="sc-dkzDqf cybjuV"
               >
-                <b
-                  class="sc-dkzDqf cybjuV"
-                >
-                  88
-                </b>
-                <b>
-                  °F
-                </b>
-              </div>
+                88
+              </b>
+              <b>
+                °F
+              </b>
             </div>
           </div>
           <div
-            class="sc-iBkjds hZwjHB rs-col rs-col-md-20"
+            class="sc-iBkjds gFLrEu rs-col rs-col-md-20"
             colspan="24"
             role="gridcell"
+            screenwidth="0"
           >
-            <b>
-              Independence Day
-            </b>
-            <div
-              class="sc-papXJ iGjbPw"
-            >
-              A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. Chance of precipitation is 30%.
+            <div>
+              <b>
+                Independence Day
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. Chance of precipitation is 30%.
+              </div>
             </div>
-            <b>
-              Monday Night
-            </b>
-            <div
-              class="sc-papXJ iGjbPw"
-            >
-              A chance of showers and thunderstorms. Partly cloudy, with a low around 71. Chance of precipitation is 30%.
+            <div>
+              <b>
+                Monday Night
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms. Partly cloudy, with a low around 71. Chance of precipitation is 30%.
+              </div>
             </div>
             <div
-              class="sc-ftvSup eYnUzf"
+              class="sc-ftvSup vRCYJ"
             >
               7/4/2022
             </div>
@@ -343,61 +352,64 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
+            screenwidth="0"
           >
             <div
-              class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+              class="sc-gsnTZi iiSpRq"
             >
-              <div
-                class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+              <b
+                class="sc-dkzDqf cybjuV"
               >
-                <b
-                  class="sc-dkzDqf cybjuV"
-                >
-                  70
-                </b>
-                <b>
-                  °F
-                </b>
-              </div>
-              <div
-                class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                70
+              </b>
+              <b>
+                °F
+              </b>
+            </div>
+            <div
+              class="sc-gsnTZi iiSpRq"
+            >
+              <b
+                class="sc-dkzDqf cybjuV"
               >
-                <b
-                  class="sc-dkzDqf cybjuV"
-                >
-                  88
-                </b>
-                <b>
-                  °F
-                </b>
-              </div>
+                88
+              </b>
+              <b>
+                °F
+              </b>
             </div>
           </div>
           <div
-            class="sc-iBkjds hZwjHB rs-col rs-col-md-20"
+            class="sc-iBkjds gFLrEu rs-col rs-col-md-20"
             colspan="24"
             role="gridcell"
+            screenwidth="0"
           >
-            <b>
-              Tuesday
-            </b>
-            <div
-              class="sc-papXJ iGjbPw"
-            >
-              A chance of rain showers before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.
+            <div>
+              <b>
+                Tuesday
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of rain showers before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.
+              </div>
             </div>
-            <b>
-              Tuesday Night
-            </b>
-            <div
-              class="sc-papXJ iGjbPw"
-            >
-              A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Chance of precipitation is 40%.
+            <div>
+              <b>
+                Tuesday Night
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Chance of precipitation is 40%.
+              </div>
             </div>
             <div
-              class="sc-ftvSup eYnUzf"
+              class="sc-ftvSup vRCYJ"
             >
               7/5/2022
             </div>

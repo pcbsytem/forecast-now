@@ -6,50 +6,13 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+        class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+        colspan="24"
         role="gridcell"
+        screenwidth="0"
       >
         <div
-          class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
-        >
-          <div
-            class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
-          >
-            <b
-              class="sc-dkzDqf cybjuV"
-            >
-              72
-            </b>
-            <b>
-              °F
-            </b>
-          </div>
-          <div
-            class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
-          >
-            <b
-              class="sc-dkzDqf cybjuV"
-            >
-              91
-            </b>
-            <b>
-              °F
-            </b>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
-      role="gridcell"
-    >
-      <div
-        class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
-      >
-        <div
-          class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+          class="sc-gsnTZi iiSpRq"
         >
           <b
             class="sc-dkzDqf cybjuV"
@@ -61,7 +24,7 @@ Object {
           </b>
         </div>
         <div
-          class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+          class="sc-gsnTZi iiSpRq"
         >
           <b
             class="sc-dkzDqf cybjuV"
@@ -72,6 +35,39 @@ Object {
             °F
           </b>
         </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+      colspan="24"
+      role="gridcell"
+      screenwidth="0"
+    >
+      <div
+        class="sc-gsnTZi iiSpRq"
+      >
+        <b
+          class="sc-dkzDqf cybjuV"
+        >
+          72
+        </b>
+        <b>
+          °F
+        </b>
+      </div>
+      <div
+        class="sc-gsnTZi iiSpRq"
+      >
+        <b
+          class="sc-dkzDqf cybjuV"
+        >
+          91
+        </b>
+        <b>
+          °F
+        </b>
       </div>
     </div>
   </div>,
@@ -135,50 +131,13 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+        class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+        colspan="24"
         role="gridcell"
+        screenwidth="0"
       >
         <div
-          class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
-        >
-          <div
-            class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
-          >
-            <b
-              class="sc-dkzDqf cybjuV"
-            >
-              72
-            </b>
-            <b>
-              °F
-            </b>
-          </div>
-          <div
-            class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
-          >
-            <b
-              class="sc-dkzDqf cybjuV"
-            >
-              91
-            </b>
-            <b>
-              °F
-            </b>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
-      role="gridcell"
-    >
-      <div
-        class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
-      >
-        <div
-          class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+          class="sc-gsnTZi iiSpRq"
         >
           <b
             class="sc-dkzDqf cybjuV"
@@ -190,7 +149,7 @@ Object {
           </b>
         </div>
         <div
-          class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+          class="sc-gsnTZi iiSpRq"
         >
           <b
             class="sc-dkzDqf cybjuV"
@@ -201,6 +160,39 @@ Object {
             °F
           </b>
         </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+      colspan="24"
+      role="gridcell"
+      screenwidth="0"
+    >
+      <div
+        class="sc-gsnTZi iiSpRq"
+      >
+        <b
+          class="sc-dkzDqf cybjuV"
+        >
+          72
+        </b>
+        <b>
+          °F
+        </b>
+      </div>
+      <div
+        class="sc-gsnTZi iiSpRq"
+      >
+        <b
+          class="sc-dkzDqf cybjuV"
+        >
+          91
+        </b>
+        <b>
+          °F
+        </b>
       </div>
     </div>
   </div>,

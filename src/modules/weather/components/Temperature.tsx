@@ -1,4 +1,4 @@
-import { Col, FlexboxGrid } from "rsuite";
+import { Col } from "rsuite";
 import {
   TemperatureContainer,
   TemperatureListContainer,

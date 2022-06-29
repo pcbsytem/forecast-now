@@ -44,7 +44,8 @@ export const getWeatherPeriodInfo = (periodUrl: string) => {
         dispatch(addLoading(true))
         generalApi({ baseURL: periodUrl })
             .then(({ data }: { data: any }) => {
-                const list = handleGroupSameDay(data?.properties?.periods || [])
+                const { properties: { periods = [] } } = data;
+                const list = handleGroupSameDay(periods)
                 dispatch(addWeatherInfo(list))
             })
             .catch((error) => console.log(error))
