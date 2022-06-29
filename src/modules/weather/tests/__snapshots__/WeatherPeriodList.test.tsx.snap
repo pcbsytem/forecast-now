@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherPeriodList component Should render WeatherPeriodList with empty list 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="rs-list rs-list-hover"
+        role="list"
+        style="width: 100%;"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rs-list rs-list-hover"
+      role="list"
+      style="width: 100%;"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`WeatherPeriodList component Should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="rs-list rs-list-hover"
+        role="list"
+        style="width: 100%;"
+      >
+        <div
+          class="rs-list-item rs-list-item-md"
+          role="listitem"
+        >
+          <div
+            class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+          >
+            <div
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              role="gridcell"
+            >
+              <div
+                class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+              >
+                <div
+                  class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                >
+                  <b
+                    class="sc-dkzDqf cybjuV"
+                  >
+                    71
+                  </b>
+                  <b>
+                    °F
+                  </b>
+                </div>
+                <div
+                  class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                >
+                  <b
+                    class="sc-dkzDqf cybjuV"
+                  >
+                    88
+                  </b>
+                  <b>
+                    °F
+                  </b>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-iBkjds hZwjHB rs-col rs-col-md-20"
+              colspan="24"
+              role="gridcell"
+            >
+              <b>
+                Independence Day
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. Chance of precipitation is 30%.
+              </div>
+              <b>
+                Monday Night
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms. Partly cloudy, with a low around 71. Chance of precipitation is 30%.
+              </div>
+              <div
+                class="sc-ftvSup eYnUzf"
+              >
+                7/4/2022
+              </div>
+            </div>
+            <div
+              class="sc-jqUVSM hdYgGq rs-col rs-col-md-2"
+              colspan="24"
+              role="gridcell"
+              screenwidth="0"
+            >
+              <img
+                alt="weather description"
+                class="sc-kDDrLX kDwFGe"
+                src="https://api.weather.gov/icons/land/night/tsra_hi,30?size=medium"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="rs-list-item rs-list-item-md"
+          role="listitem"
+        >
+          <div
+            class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+          >
+            <div
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              role="gridcell"
+            >
+              <div
+                class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+              >
+                <div
+                  class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                >
+                  <b
+                    class="sc-dkzDqf cybjuV"
+                  >
+                    70
+                  </b>
+                  <b>
+                    °F
+                  </b>
+                </div>
+                <div
+                  class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+                >
+                  <b
+                    class="sc-dkzDqf cybjuV"
+                  >
+                    88
+                  </b>
+                  <b>
+                    °F
+                  </b>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-iBkjds hZwjHB rs-col rs-col-md-20"
+              colspan="24"
+              role="gridcell"
+            >
+              <b>
+                Tuesday
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of rain showers before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.
+              </div>
+              <b>
+                Tuesday Night
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Chance of precipitation is 40%.
+              </div>
+              <div
+                class="sc-ftvSup eYnUzf"
+              >
+                7/5/2022
+              </div>
+            </div>
+            <div
+              class="sc-jqUVSM hdYgGq rs-col rs-col-md-2"
+              colspan="24"
+              role="gridcell"
+              screenwidth="0"
+            >
+              <img
+                alt="weather description"
+                class="sc-kDDrLX kDwFGe"
+                src="https://api.weather.gov/icons/land/night/tsra_sct,40/tsra_sct,30?size=medium"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rs-list rs-list-hover"
+      role="list"
+      style="width: 100%;"
+    >
+      <div
+        class="rs-list-item rs-list-item-md"
+        role="listitem"
+      >
+        <div
+          class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+        >
+          <div
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            role="gridcell"
+          >
+            <div
+              class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+            >
+              <div
+                class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
+                >
+                  71
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+              <div
+                class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
+                >
+                  88
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-iBkjds hZwjHB rs-col rs-col-md-20"
+            colspan="24"
+            role="gridcell"
+          >
+            <b>
+              Independence Day
+            </b>
+            <div
+              class="sc-papXJ iGjbPw"
+            >
+              A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. Chance of precipitation is 30%.
+            </div>
+            <b>
+              Monday Night
+            </b>
+            <div
+              class="sc-papXJ iGjbPw"
+            >
+              A chance of showers and thunderstorms. Partly cloudy, with a low around 71. Chance of precipitation is 30%.
+            </div>
+            <div
+              class="sc-ftvSup eYnUzf"
+            >
+              7/4/2022
+            </div>
+          </div>
+          <div
+            class="sc-jqUVSM hdYgGq rs-col rs-col-md-2"
+            colspan="24"
+            role="gridcell"
+            screenwidth="0"
+          >
+            <img
+              alt="weather description"
+              class="sc-kDDrLX kDwFGe"
+              src="https://api.weather.gov/icons/land/night/tsra_hi,30?size=medium"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="rs-list-item rs-list-item-md"
+        role="listitem"
+      >
+        <div
+          class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+        >
+          <div
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            role="gridcell"
+          >
+            <div
+              class="sc-bczRLJ hnZsda rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+            >
+              <div
+                class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
+                >
+                  70
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+              <div
+                class="sc-gsnTZi iiSpRq rs-flex-box-grid-item rs-flex-box-grid-item-0"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
+                >
+                  88
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-iBkjds hZwjHB rs-col rs-col-md-20"
+            colspan="24"
+            role="gridcell"
+          >
+            <b>
+              Tuesday
+            </b>
+            <div
+              class="sc-papXJ iGjbPw"
+            >
+              A chance of rain showers before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.
+            </div>
+            <b>
+              Tuesday Night
+            </b>
+            <div
+              class="sc-papXJ iGjbPw"
+            >
+              A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Chance of precipitation is 40%.
+            </div>
+            <div
+              class="sc-ftvSup eYnUzf"
+            >
+              7/5/2022
+            </div>
+          </div>
+          <div
+            class="sc-jqUVSM hdYgGq rs-col rs-col-md-2"
+            colspan="24"
+            role="gridcell"
+            screenwidth="0"
+          >
+            <img
+              alt="weather description"
+              class="sc-kDDrLX kDwFGe"
+              src="https://api.weather.gov/icons/land/night/tsra_sct,40/tsra_sct,30?size=medium"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

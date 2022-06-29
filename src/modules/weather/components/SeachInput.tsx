@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Input, InputGroup } from "rsuite";
 import { Search } from "@rsuite/icons";
 import { SearchInputProps } from "../Weather.type";
+import { SearchInputContainer, SearchInputGroup } from "../Weather.style";
 
 function SearchInput({
   placeholder,
@@ -20,28 +21,32 @@ function SearchInput({
   }
 
   function handleChange(value: string) {
-    // if (typingTimeout) {
-    //   clearTimeout(typingTimeout);
-    // }
-    // seLoading(true);
-    // const timeout = setTimeout(() => {
-    //   action(value);
-    //   seLoading(false);
-    // }, 1000);
+    if (typingTimeout) {
+      clearTimeout(typingTimeout);
+    }
+    seLoading(true);
+    const timeout = setTimeout(() => {
+      action(value);
+      seLoading(false);
+    }, 1000);
 
-    // setTypingTimeout(timeout);
+    setTypingTimeout(timeout);
     setSearchValue(value);
   }
 
   return (
-    <>
-      <InputGroup {...props} style={{ width, maxWidth: "1280px" }} inside>
-        <Input placeholder={placeholder} onChange={handleChange} />
+    <SearchInputContainer justify="start">
+      <SearchInputGroup {...props} width={width} inside>
+        <Input
+          placeholder={placeholder}
+          onChange={handleChange}
+          value={searchValue}
+        />
         <InputGroup.Button onClick={handleClick} loading={loading}>
           <Search />
         </InputGroup.Button>
-      </InputGroup>
-    </>
+      </SearchInputGroup>
+    </SearchInputContainer>
   );
 }
 

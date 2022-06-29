@@ -1,32 +1,54 @@
-import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getAddressInfo } from "../../store/modules/weather/action";
 import {
-  getAddressInfo,
-  getWeatherInfo,
-} from "../../store/modules/weather/action";
-import SearchInput from "./components/SeachInput";
+  SearchInput,
+  WeatherPeriodList,
+  WeatherSqueleton,
+} from "./components/index";
+import {
+  WeatherContainer,
+  WeatherDescription,
+  WeatherIconContainer,
+  WeatherTitle,
+} from "./Weather.style";
+import { ReactComponent as WeatherIcon } from "../../assets/img/cloudyday.svg";
+import {
+  pageDescription,
+  pageTitle,
+  placeholder,
+  size,
+  width,
+} from "./Weather.constant";
 
 const Weather = () => {
   const dispatch = useDispatch();
-  const size = "lg";
-  const width = "771px";
-  const placeholder = "Search...";
-
-  useEffect(() => {
-    dispatch(getAddressInfo() as any);
-    dispatch(getWeatherInfo() as any);
-  }, []);
+  const { weatherPeriod, weatherLoading } = useSelector((state: any) => ({
+    weatherPeriod: state.weather.weatherPeriod
+      ? state.weather.weatherPeriod
+      : [],
+    weatherLoading: state.weather.weatherLoading,
+  }));
 
   return (
-    <div>
-      <h1>Weather</h1>
+    <WeatherContainer justify="center">
+      <WeatherTitle>{pageTitle}</WeatherTitle>
+      <WeatherDescription>{pageDescription}</WeatherDescription>
       <SearchInput
         size={size}
         width={width}
         placeholder={placeholder}
-        action={(value: string) => console.log(value)}
+        action={(value: string) => dispatch(getAddressInfo(value) as any)}
       />
-    </div>
+      {weatherLoading && <WeatherSqueleton />}
+      {weatherPeriod?.length > 0 && <WeatherPeriodList list={weatherPeriod} />}
+
+      {weatherPeriod?.length === 0 && (
+        <WeatherIconContainer>
+          <WeatherIcon width="360px" height="360px" />
+        </WeatherIconContainer>
+      )}
+    </WeatherContainer>
   );
 };
 

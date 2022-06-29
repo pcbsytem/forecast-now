@@ -1,23 +1,20 @@
-import axios from 'axios'
-import { addressApi, weatherApi } from '../../../services/api'
+import { handleGroupSameDay } from '../../../modules/weather/utils/Weather'
+import { AddWeatherInfoProps, GetWeatherInfoProps } from '../../../modules/weather/Weather.type'
+import { addressApi, generalApi, weatherApi } from '../../../services/api'
 
-export const addAddressInfo = (address: any) => {
-    return {
-        type: 'ADD_ADDRESS_INFO',
-        address
-    }
-}
+export const addWeatherInfo = (weatherPeriod: AddWeatherInfoProps[]) => ({
+    type: 'GET_WEATHER_PERIOD',
+    weatherPeriod
+})
 
-export const addWeatherInfo = (weather: any) => {
-    return {
-        type: 'GET_WEATHER_INFO',
-        weather
-    }
-}
+export const addLoading = (weatherLoading: boolean) => ({
+    type: 'GET_WEATHER_LOADING',
+    weatherLoading
+})
 
-export const getAddressInfo = () => {
+export const getAddressInfo = (address: string) => {
     const params = {
-        query: '1600 Pennsylvania Avenue NW, Washington, DC 20500, United States',
+        query: address,
         'access_key': process.env.REACT_APP_ADDRESS_KEY
     }
     const url = '/v1/forward'
@@ -25,29 +22,32 @@ export const getAddressInfo = () => {
     return (dispatch: any) => {
         addressApi.get(url, {
             params,
-        }).then((response) => {
-            dispatch(addAddressInfo(response.data))
+        }).then(({ data }) => {
+            const [address] = data.data
+            dispatch(getWeatherInfo(address))
         }).catch((error) => console.log(error));
     }
 }
 
-export const getWeatherInfo = () => {
-    const latitude = 38.8988
-    const longitude = -77.0353
+export const getWeatherInfo = ({ latitude, longitude }: GetWeatherInfoProps) => {
     const url = `/points/${latitude},${longitude}`
-
     return (dispatch: any) => {
         weatherApi.get(url).then((response) => {
-            console.log(response?.data?.properties?.forecast)
-            // dispatch(getWeatherPeriodInfo(response?.data?.properties?.forecast))
+            const { data: { properties: { forecast } } } = response
+            dispatch(getWeatherPeriodInfo(forecast))
         }).catch((error) => console.log(error));
     }
 }
 
-export const getWeatherPeriodInfo = ({ periodUrl }: { periodUrl: string }) => {
+export const getWeatherPeriodInfo = (periodUrl: string) => {
     return (dispatch: any) => {
-        axios.get(periodUrl).then((response) => {
-            console.log(response)
-        }).catch((error) => console.log(error));
+        dispatch(addLoading(true))
+        generalApi({ baseURL: periodUrl })
+            .then(({ data }: { data: any }) => {
+                const list = handleGroupSameDay(data?.properties?.periods || [])
+                dispatch(addWeatherInfo(list))
+            })
+            .catch((error) => console.log(error))
+            .finally(() => dispatch(addLoading(false)));
     }
 }
