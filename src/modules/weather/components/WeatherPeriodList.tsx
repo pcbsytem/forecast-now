@@ -1,29 +1,29 @@
-import React from "react";
-import { Col, FlexboxGrid, List } from "rsuite";
+import React from 'react'
+import { Col, FlexboxGrid, List } from 'rsuite'
 import {
   WeatherPeriodListImageContainer,
   WeatherPeriodListImage,
   WeatherPeriodListDate,
-  WeatherPeriodListItem,
-} from "../Weather.style";
-import { WeatherPeriodListProps } from "../Weather.type";
-import Temperature from "./Temperature";
-import WeatherPeriodDescription from "./WeatherPeriodDescription";
+  WeatherPeriodListItem
+} from '../Weather.style'
+import { WeatherPeriodListProps } from '../Weather.type'
+import Temperature from './Temperature'
+import WeatherPeriodDescription from './WeatherPeriodDescription'
 
 const WeatherPeriodList = ({ list }: WeatherPeriodListProps) => {
-  const imageAlt = "weather description";
+  const imageAlt = 'weather description'
 
   return (
-    <List hover style={{ width: "100%" }}>
+    <List hover style={{ width: '100%' }}>
       {list.map((listItem, index) => (
         <List.Item key={index}>
           <FlexboxGrid justify="start">
             <Temperature {...listItem} />
             <WeatherPeriodListItem
               as={Col}
-              colspan={24}
+              colSpan={24}
               md={20}
-              screenWidth={window.screen.availWidth}
+              screenwidth={window.screen.availWidth}
             >
               <WeatherPeriodDescription {...listItem} />
               <WeatherPeriodListDate>
@@ -32,9 +32,9 @@ const WeatherPeriodList = ({ list }: WeatherPeriodListProps) => {
             </WeatherPeriodListItem>
             <WeatherPeriodListImageContainer
               as={Col}
-              colspan={24}
+              colSpan={24}
               md={2}
-              screenWidth={window.screen.availWidth}
+              screenwidth={window.screen.availWidth}
             >
               <WeatherPeriodListImage src={listItem[0].icon} alt={imageAlt} />
             </WeatherPeriodListImageContainer>
@@ -42,7 +42,7 @@ const WeatherPeriodList = ({ list }: WeatherPeriodListProps) => {
         </List.Item>
       ))}
     </List>
-  );
-};
+  )
+}
 
-export default WeatherPeriodList;
+export default WeatherPeriodList

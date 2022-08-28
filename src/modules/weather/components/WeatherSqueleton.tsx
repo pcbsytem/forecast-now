@@ -1,36 +1,36 @@
-import React from "react";
-import { Col, FlexboxGrid, List } from "rsuite";
-import Skeleton from "react-loading-skeleton";
+import React from 'react'
+import { Col, FlexboxGrid, List } from 'rsuite'
+import Skeleton from 'react-loading-skeleton'
 import {
   WeatherPeriodListTitle,
   WeatherPeriodListImageContainer,
   WeatherPeriodListDate,
-  WeatherPeriodListItem,
-} from "../Weather.style";
+  WeatherPeriodListItem
+} from '../Weather.style'
 
 const WeatherSqueleton = () => {
-  const list = [1, 2, 3, 4, 5, 6, 7];
+  const list = [1, 2, 3, 4, 5, 6, 7]
 
   return (
-    <List hover style={{ width: "100%" }}>
+    <List hover style={{ width: '100%' }}>
       {list.map((listItem, index) => (
         <List.Item>
           <FlexboxGrid justify="start">
             <FlexboxGrid.Item
               as={Col}
-              colspan={24}
+              colSpan={24}
               md={2}
               style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center'
               }}
             >
               <Skeleton style={{ marginBottom: 16 }} width={30} height={30} />
               <Skeleton style={{ width: 30, height: 30 }} />
             </FlexboxGrid.Item>
 
-            <WeatherPeriodListItem as={Col} colspan={24} md={20}>
+            <WeatherPeriodListItem as={Col} colSpan={24} md={20}>
               <WeatherPeriodListTitle>
                 <Skeleton style={{ width: 280, maxWidth: 2000, height: 24 }} />
               </WeatherPeriodListTitle>
@@ -40,9 +40,9 @@ const WeatherSqueleton = () => {
             </WeatherPeriodListItem>
             <WeatherPeriodListImageContainer
               as={Col}
-              colspan={24}
+              colSpan={24}
               md={2}
-              screenWidth={window.screen.availWidth}
+              screenwidth={window.screen.availWidth}
             >
               <Skeleton
                 style={{
@@ -53,7 +53,7 @@ const WeatherSqueleton = () => {
                   height:
                     window.screen.availWidth > 768
                       ? 60
-                      : window.screen.availHeight * 0.6,
+                      : window.screen.availHeight * 0.6
                 }}
               />
             </WeatherPeriodListImageContainer>
@@ -61,7 +61,7 @@ const WeatherSqueleton = () => {
         </List.Item>
       ))}
     </List>
-  );
-};
+  )
+}
 
-export default WeatherSqueleton;
+export default WeatherSqueleton

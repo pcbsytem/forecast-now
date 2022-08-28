@@ -7,7 +7,7 @@ export const TemperatureListContainer = styled(FlexboxGrid.Item)`
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    width: ${({ screenWidth }) => screenWidth < 768 ? '100%' : ''};
+    width: ${({ screenwidth }) => screenwidth < 768 ? '100%' : ''};
 `
 
 export const TemperatureContainer = styled.div`
@@ -49,7 +49,7 @@ export const WeatherIconContainer = styled.div`
 
 // WeatherPeriodList styles
 export const WeatherPeriodListItem = styled(FlexboxGrid.Item)`
-    padding: ${({ screenWidth }) => screenWidth < 768 ? '1rem' : '1rem 1rem 1rem 0'};
+    padding: ${({ screenwidth }) => screenwidth < 768 ? '1rem' : '1rem 1rem 1rem 0'};
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -71,7 +71,7 @@ export const WeatherPeriodListImageContainer = styled(FlexboxGrid.Item)`
     display: flex;
     justify-content: center;
     padding: 1rem;
-    width: ${({ screenWidth }) => screenWidth < 768 ? '100%' : ''};
+    width: ${({ screenwidth }) => screenwidth < 768 ? '100%' : ''};
 `
 
 export const WeatherPeriodListImage = styled.img`
