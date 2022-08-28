@@ -186,6 +186,90 @@ Object {
                 <b
                   class="sc-dkzDqf cybjuV"
                 >
+                  71
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+              <div
+                class="sc-gsnTZi iiSpRq"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
+                >
+                  88
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+            </div>
+            <div
+              class="sc-iBkjds gFLrEu rs-col rs-col-md-20"
+              colspan="24"
+              role="gridcell"
+              screenwidth="0"
+            >
+              <div>
+                <b>
+                  Independence Day
+                </b>
+                <div
+                  class="sc-papXJ iGjbPw"
+                >
+                  A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. Chance of precipitation is 30%.
+                </div>
+              </div>
+              <div>
+                <b>
+                  Monday Night
+                </b>
+                <div
+                  class="sc-papXJ iGjbPw"
+                >
+                  A chance of showers and thunderstorms. Partly cloudy, with a low around 71. Chance of precipitation is 30%.
+                </div>
+              </div>
+              <div
+                class="sc-ftvSup vRCYJ"
+              >
+                7/4/2022
+              </div>
+            </div>
+            <div
+              class="sc-jqUVSM hdYgGq rs-col rs-col-md-2"
+              colspan="24"
+              role="gridcell"
+              screenwidth="0"
+            >
+              <img
+                alt="weather description"
+                class="sc-kDDrLX kDwFGe"
+                src="https://api.weather.gov/icons/land/day/sct/tsra_hi,30?size=medium"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="rs-list-item rs-list-item-md"
+          role="listitem"
+        >
+          <div
+            class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+          >
+            <div
+              class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+              colspan="24"
+              role="gridcell"
+              screenwidth="0"
+            >
+              <div
+                class="sc-gsnTZi iiSpRq"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
+                >
                   70
                 </b>
                 <b>
@@ -247,6 +331,90 @@ Object {
                 alt="weather description"
                 class="sc-kDDrLX kDwFGe"
                 src="https://api.weather.gov/icons/land/night/tsra_sct,40/tsra_sct,30?size=medium"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="rs-list-item rs-list-item-md"
+          role="listitem"
+        >
+          <div
+            class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+          >
+            <div
+              class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+              colspan="24"
+              role="gridcell"
+              screenwidth="0"
+            >
+              <div
+                class="sc-gsnTZi iiSpRq"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
+                >
+                  70
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+              <div
+                class="sc-gsnTZi iiSpRq"
+              >
+                <b
+                  class="sc-dkzDqf cybjuV"
+                >
+                  88
+                </b>
+                <b>
+                  °F
+                </b>
+              </div>
+            </div>
+            <div
+              class="sc-iBkjds gFLrEu rs-col rs-col-md-20"
+              colspan="24"
+              role="gridcell"
+              screenwidth="0"
+            >
+              <div>
+                <b>
+                  Tuesday
+                </b>
+                <div
+                  class="sc-papXJ iGjbPw"
+                >
+                  A chance of rain showers before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.
+                </div>
+              </div>
+              <div>
+                <b>
+                  Tuesday Night
+                </b>
+                <div
+                  class="sc-papXJ iGjbPw"
+                >
+                  A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Chance of precipitation is 40%.
+                </div>
+              </div>
+              <div
+                class="sc-ftvSup vRCYJ"
+              >
+                7/5/2022
+              </div>
+            </div>
+            <div
+              class="sc-jqUVSM hdYgGq rs-col rs-col-md-2"
+              colspan="24"
+              role="gridcell"
+              screenwidth="0"
+            >
+              <img
+                alt="weather description"
+                class="sc-kDDrLX kDwFGe"
+                src="https://api.weather.gov/icons/land/day/rain_showers,30/tsra_hi,40?size=medium"
               />
             </div>
           </div>
@@ -363,6 +531,90 @@ Object {
               <b
                 class="sc-dkzDqf cybjuV"
               >
+                71
+              </b>
+              <b>
+                °F
+              </b>
+            </div>
+            <div
+              class="sc-gsnTZi iiSpRq"
+            >
+              <b
+                class="sc-dkzDqf cybjuV"
+              >
+                88
+              </b>
+              <b>
+                °F
+              </b>
+            </div>
+          </div>
+          <div
+            class="sc-iBkjds gFLrEu rs-col rs-col-md-20"
+            colspan="24"
+            role="gridcell"
+            screenwidth="0"
+          >
+            <div>
+              <b>
+                Independence Day
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. Chance of precipitation is 30%.
+              </div>
+            </div>
+            <div>
+              <b>
+                Monday Night
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms. Partly cloudy, with a low around 71. Chance of precipitation is 30%.
+              </div>
+            </div>
+            <div
+              class="sc-ftvSup vRCYJ"
+            >
+              7/4/2022
+            </div>
+          </div>
+          <div
+            class="sc-jqUVSM hdYgGq rs-col rs-col-md-2"
+            colspan="24"
+            role="gridcell"
+            screenwidth="0"
+          >
+            <img
+              alt="weather description"
+              class="sc-kDDrLX kDwFGe"
+              src="https://api.weather.gov/icons/land/day/sct/tsra_hi,30?size=medium"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="rs-list-item rs-list-item-md"
+        role="listitem"
+      >
+        <div
+          class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+        >
+          <div
+            class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+            colspan="24"
+            role="gridcell"
+            screenwidth="0"
+          >
+            <div
+              class="sc-gsnTZi iiSpRq"
+            >
+              <b
+                class="sc-dkzDqf cybjuV"
+              >
                 70
               </b>
               <b>
@@ -424,6 +676,90 @@ Object {
               alt="weather description"
               class="sc-kDDrLX kDwFGe"
               src="https://api.weather.gov/icons/land/night/tsra_sct,40/tsra_sct,30?size=medium"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="rs-list-item rs-list-item-md"
+        role="listitem"
+      >
+        <div
+          class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
+        >
+          <div
+            class="sc-bczRLJ iJWIhQ rs-col rs-col-md-2"
+            colspan="24"
+            role="gridcell"
+            screenwidth="0"
+          >
+            <div
+              class="sc-gsnTZi iiSpRq"
+            >
+              <b
+                class="sc-dkzDqf cybjuV"
+              >
+                70
+              </b>
+              <b>
+                °F
+              </b>
+            </div>
+            <div
+              class="sc-gsnTZi iiSpRq"
+            >
+              <b
+                class="sc-dkzDqf cybjuV"
+              >
+                88
+              </b>
+              <b>
+                °F
+              </b>
+            </div>
+          </div>
+          <div
+            class="sc-iBkjds gFLrEu rs-col rs-col-md-20"
+            colspan="24"
+            role="gridcell"
+            screenwidth="0"
+          >
+            <div>
+              <b>
+                Tuesday
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of rain showers before 8am, then a chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.
+              </div>
+            </div>
+            <div>
+              <b>
+                Tuesday Night
+              </b>
+              <div
+                class="sc-papXJ iGjbPw"
+              >
+                A chance of showers and thunderstorms. Mostly cloudy, with a low around 70. Chance of precipitation is 40%.
+              </div>
+            </div>
+            <div
+              class="sc-ftvSup vRCYJ"
+            >
+              7/5/2022
+            </div>
+          </div>
+          <div
+            class="sc-jqUVSM hdYgGq rs-col rs-col-md-2"
+            colspan="24"
+            role="gridcell"
+            screenwidth="0"
+          >
+            <img
+              alt="weather description"
+              class="sc-kDDrLX kDwFGe"
+              src="https://api.weather.gov/icons/land/day/rain_showers,30/tsra_hi,40?size=medium"
             />
           </div>
         </div>
