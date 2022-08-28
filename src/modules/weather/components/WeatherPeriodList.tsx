@@ -15,32 +15,34 @@ const WeatherPeriodList = ({ list }: WeatherPeriodListProps) => {
 
   return (
     <List hover style={{ width: '100%' }}>
-      {list.map((listItem, index) => (
-        <List.Item key={index}>
-          <FlexboxGrid justify="start">
-            <Temperature {...listItem} />
-            <WeatherPeriodListItem
-              as={Col}
-              colSpan={24}
-              md={20}
-              screenwidth={window.screen.availWidth}
-            >
-              <WeatherPeriodDescription {...listItem} />
-              <WeatherPeriodListDate>
-                {new Date(listItem[0].startTime).toLocaleDateString()}
-              </WeatherPeriodListDate>
-            </WeatherPeriodListItem>
-            <WeatherPeriodListImageContainer
-              as={Col}
-              colSpan={24}
-              md={2}
-              screenwidth={window.screen.availWidth}
-            >
-              <WeatherPeriodListImage src={listItem[0].icon} alt={imageAlt} />
-            </WeatherPeriodListImageContainer>
-          </FlexboxGrid>
-        </List.Item>
-      ))}
+      {list.map((listItem) =>
+        listItem.map((item) => (
+          <List.Item key={item.number}>
+            <FlexboxGrid justify="start">
+              <Temperature {...listItem} />
+              <WeatherPeriodListItem
+                as={Col}
+                colSpan={24}
+                md={20}
+                screenwidth={window.screen.availWidth}
+              >
+                <WeatherPeriodDescription {...listItem} />
+                <WeatherPeriodListDate>
+                  {new Date(item.startTime).toLocaleDateString()}
+                </WeatherPeriodListDate>
+              </WeatherPeriodListItem>
+              <WeatherPeriodListImageContainer
+                as={Col}
+                colSpan={24}
+                md={2}
+                screenwidth={window.screen.availWidth}
+              >
+                <WeatherPeriodListImage src={item.icon} alt={imageAlt} />
+              </WeatherPeriodListImageContainer>
+            </FlexboxGrid>
+          </List.Item>
+        ))
+      )}
     </List>
   )
 }

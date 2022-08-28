@@ -13,8 +13,8 @@ const WeatherSqueleton = () => {
 
   return (
     <List hover style={{ width: '100%' }}>
-      {list.map((listItem, index) => (
-        <List.Item>
+      {list.map((listItem) => (
+        <List.Item key={listItem}>
           <FlexboxGrid justify="start">
             <FlexboxGrid.Item
               as={Col}
