@@ -18,7 +18,8 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
               style="display: flex; flex-direction: column; align-items: center;"
             >
@@ -114,7 +115,8 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
               style="display: flex; flex-direction: column; align-items: center;"
             >
@@ -210,7 +212,8 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
               style="display: flex; flex-direction: column; align-items: center;"
             >
@@ -306,7 +309,8 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
               style="display: flex; flex-direction: column; align-items: center;"
             >
@@ -402,7 +406,8 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
               style="display: flex; flex-direction: column; align-items: center;"
             >
@@ -498,7 +503,8 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
               style="display: flex; flex-direction: column; align-items: center;"
             >
@@ -594,7 +600,8 @@ Object {
             class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
           >
             <div
-              class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+              class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+              colspan="24"
               role="gridcell"
               style="display: flex; flex-direction: column; align-items: center;"
             >
@@ -699,7 +706,8 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
             style="display: flex; flex-direction: column; align-items: center;"
           >
@@ -795,7 +803,8 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
             style="display: flex; flex-direction: column; align-items: center;"
           >
@@ -891,7 +900,8 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
             style="display: flex; flex-direction: column; align-items: center;"
           >
@@ -987,7 +997,8 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
             style="display: flex; flex-direction: column; align-items: center;"
           >
@@ -1083,7 +1094,8 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
             style="display: flex; flex-direction: column; align-items: center;"
           >
@@ -1179,7 +1191,8 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
             style="display: flex; flex-direction: column; align-items: center;"
           >
@@ -1275,7 +1288,8 @@ Object {
           class="rs-flex-box-grid rs-flex-box-grid-top rs-flex-box-grid-start"
         >
           <div
-            class="rs-flex-box-grid-item rs-flex-box-grid-item-24 rs-col rs-col-md-2"
+            class="rs-flex-box-grid-item rs-flex-box-grid-item-0 rs-col rs-col-md-2"
+            colspan="24"
             role="gridcell"
             style="display: flex; flex-direction: column; align-items: center;"
           >
